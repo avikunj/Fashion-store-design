@@ -11,12 +11,16 @@ import "./home.scss";
 import { Link } from "react-router-dom";
 const BottomMenu = () => {
   return (
+    <div className="bottomMenu">
+
+
     <Tabs aria-label="icon label tabs example" centered>
     <Link to="/"> <Tab icon={<Home />} label="Home"/></Link>
       <Tab icon={<FavoriteBorderIcon/>} label="Favorite" />
       <Tab icon={<WorkOutlineIcon />}label="Bag"  />
       <Tab icon={<GroupAddSharpIcon />} label="Account"  />
     </Tabs>
+    </div>
   );
 };
 

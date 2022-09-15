@@ -10,7 +10,7 @@
   }
 .FashionStoreHeader{
     margin-top: 2%;
-    margin-left: -13%;
+    margin-left: -7%;
     margin-right: -8%;
 }
   .redheart {
@@ -27,13 +27,13 @@ font-size: 20px;
     width: 89%;
 }
   .logo{
-    margin-right:-6%;
+    margin-right:-3%;
     height: 30px;
     margin-top: 7px;
    
   }
   .menu1{
-    margin-right: -3%;
+    margin-right:-6%;
   }
   .fil{
     font-size: 60px;
@@ -91,10 +91,24 @@ padding-top: 1%;
 }
 .shoppingCard{
 margin-left: 4%;
-  height: 195px;
+
+  height: 400px;
   overflow: hidden;
   overflow-y:scroll;
   bottom: 0;
+ 
+}
+.link{
+  text-decoration: none;
+  color: #000;
+}
+.bottomMenu{
+  position: fixed;
+  overflow: hidden;
+  margin-bottom: 1%;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 }
